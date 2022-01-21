@@ -1,31 +1,29 @@
 import { useState } from "react";
 
 const Home = () => {
-    //let  name = 'Allan';
-    const [name, setName]= useState('Kibet');
-    const[age, setAge] = useState(12);
+    
+    const[ blogs, setBlogs]= useState([
+        {title: 'Healthy Eating', body:'Lorem ipsum....', author:'Allanetizen', id:1},
+        {title: 'Tech Bits', body:'Lorem ipsum....', author:'Allanetizen', id:2},
+        {title: 'Farmers Choice', body:'Lorem ipsum....', author:'Allanetizen', id:3}
 
-    const handleClick = () => {
-        setName('Allan'); 
-        
-    }
-    const clickTwo = () => {
-     setAge(20);
-    }
+    ]);
    
     
     return (  
         <div className="home">
-            <h2>HomePage </h2>
-            <p>{name} is <b>{age}</b> Years Old</p>
-            
-            <button onClick={clickTwo}>ChangeAge</button>
+            {/*/map method for javascript circles through an array*/}
+             
+           {blogs.map((blog)=> (
 
-            <button onClick={handleClick}>Click me</button>
-           
-         
-            
+<div className="blog-preview" key={blog.id}>
+    <h2>{blog.title}</h2>
+    <p>Written by: {blog.author}</p>
+    
 
+</div>
+
+            ))}
         </div>
 
          
