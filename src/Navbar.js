@@ -1,15 +1,14 @@
 //sfc - stateless functional component
 const Navbar = () => {
-    return (  
+  return (
+    <nav className="navbar">
+      <h1> The Blogo Blog</h1>
+      <div className="links">
+        <a href="/">Home</a>
+        <a href="/create">New Blog</a>
+      </div>
+    </nav>
+  );
+};
 
-       <nav className="navbar">
-           <h1> The Blogo Blog</h1>
-           <div className="links">
-               <a href="/">Home</a>
-               <a href="/create">New Blog</a>
-           </div>
-       </nav>
-    );
-}
- 
 export default Navbar;
