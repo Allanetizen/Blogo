@@ -12,6 +12,7 @@
   max-width: 600px;
   margin: 0 auto;
   border-bottom: 1px solid #f2f2f2;
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
   
 }
 .navbar h1 {
