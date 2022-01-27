@@ -24,6 +24,7 @@ const Home = () => {
       id: 3,
     },
   ]);
+  const [name, setName]=useState('Mario');
   //function for deleting
   const handleDelete = (id) => {
     const newBlogs = blogs.filter((blog) => blog.id !== id);
@@ -31,16 +32,22 @@ const Home = () => {
   };
 
   //not stored in a constant
+  //fires on every render, 
+  //adding a dependency [], fires it once
   useEffect(() => {
-    console.log("This is my Hook");
-    console.log(blogs);
-  });
+    console.log("use effect run");
+    console.log(name);
+  },[name]);
+  
 
   return (
     <div className="home">
       {/*Blogs  passes blog as a prop*/}
 
       <BlogList blogs={blogs} title="All Blogs!" handleDelete={handleDelete} />
+      <button onClick={()=> setName('Luigi')}>Change Name</button>
+      <p>{ name }</p>
+
     </div>
   );
 };
