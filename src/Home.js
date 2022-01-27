@@ -5,6 +5,7 @@ import BlogList from "./BlogList";
 
 const Home = () => {
   const [blogs, setBlogs] = useState(null);
+  const [isPending, setIsPending]= useState(true);
 
   
   // //function for deleting
@@ -17,7 +18,8 @@ const Home = () => {
   //fires on every render, 
   //adding a dependency [], fires it once
   useEffect(() => {
-    //fires the function once the promise has been 
+    setTimeout(()=>{
+      //fires the function once the promise has been 
     fetch('http://localhost:8000/blogs')
     .then(res=>{
       return res.json();
@@ -25,7 +27,12 @@ const Home = () => {
     .then(data=>{
       console.log(data);
       setBlogs(data);
-    })
+      setIsPending(false);
+    });
+
+
+
+    }, 1000);
    
   },[]);
    
@@ -35,7 +42,7 @@ const Home = () => {
       {/*Blogs  passes blog as a prop*/}
       {/* //conditional templating in react, && tests the first part 
       if it is false it doesnot bother with the next one */}
-      
+      {isPending && <div>Loading...</div>}
 
      {blogs && <BlogList blogs={blogs} title="All Blogs!" />}
       
