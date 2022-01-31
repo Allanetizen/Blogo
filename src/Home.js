@@ -20,7 +20,7 @@ const Home = () => {
   useEffect(() => {
     setTimeout(()=>{
       //fires the function once the promise has been 
-    fetch('http://localhost:8000/blogs')
+    fetch('http://localhost:5000/blogs')
     .then(res=>{
       return res.json();
     })
