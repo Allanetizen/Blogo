@@ -1,5 +1,4 @@
-//import { useState } from "react";
-//import { useEffect } from "react";
+
 import BlogList from "./BlogList";
 import UseFetch from "./useFetch";
 //===== useEffect hook is a way to run code in every render
