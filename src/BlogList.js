@@ -1,4 +1,6 @@
-const BlogList = ({ blogs, title, handleDelete }) => {
+import { Link } from "react-router-dom";
+
+const BlogList = ({ blogs, title }) => {
   //const blogs = props.blogs;
   //const title =props.title;
 
@@ -8,10 +10,12 @@ const BlogList = ({ blogs, title, handleDelete }) => {
       {/*/map method for javascript circles through an array*/}
       {blogs.map((blog) => (
         <div className="blog-preview" key={blog.id}>
-          <h2>{blog.title}</h2>
-          
+         <Link to ={`/blogs/${blog.id}`}>
+         <h2>{blog.title}</h2>
+          </Link>
           <p>{blog.body}</p>
           <p>Written by: <strong>{blog.author}</strong></p>
+         
 
           {/* <button onClick={() => handleDelete(blog.id)}>Delete Blog</button> */}
         </div>
