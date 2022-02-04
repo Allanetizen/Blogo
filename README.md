@@ -11,7 +11,7 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:000](http://localhost:3000) to view it in your browser.
 Then run:
-###`npx json-server --watch .\data\db.json --port 5000`
+### `npx json-server --watch .\data\db.json --port 5000`
 To start the json server
 
 The page will reload when you make changes.\
