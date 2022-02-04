@@ -1,34 +1,16 @@
 {
   "blogs": [
     {
-      "title": "My first blog",
-      "body": "Life is a characteristic that distinguishes physical entities that have biological processes, such as signaling and self-sustaining processes, from those that do not, either because such functions have ceased or because they never had such functions and are classified as inanimate",
-      "author": "Allan",
-      "id": 1
-    },
-    {
-      "title": "Basic Stuff in Programming",
-      "body": "A programming language is any set of rules that converts strings, or graphical program elements in the case of visual programming languages, to various kinds of machine code output. Programming languages are one kind of computer language, and are used in computer programming to implement algorithms.",
-      "author": "Tommy",
-      "id": 2
-    },
-    {
-      "title": "The Best Comic cartoons",
-      "body": "If you like cartoons, you’ve come to the right place. Reader’s Digest has the best cat cartoons, political cartoons, and even work cartoons that will help you get through to Friday. Some of these funny cartoons might just be so relatable to your daily life that the only thing you can do is laugh. Keep reading to see some of the funniest cartoons we have to offer.",
-      "author": "Tommy",
-      "id": 3
-    },
-    {
-      "title": "Lorem Ipsum",
-      "body": "Lorem Ipsum je demonstrativní výplňový text používaný v tiskařském a knihařském průmyslu. Lorem Ipsum je považováno za standard v této oblasti už od začátku 16. století, kdy dnes neznámý tiskař vzal kusy textu a na jejich základě vytvořil speciální vzorovou knihu. Jeho odkaz nevydržel pouze pět století, on přežil i nástup elektronické sazby v podstatě beze změny. Nejvíce popularizováno bylo Lorem Ipsum v šedesátých letech 20. století, kdy byly vydávány speciální vzorníky s jeho pasážemi a později pak díky počítačovým DTP programům jako Aldus PageMaker.",
-      "author": "mario",
-      "id": 4
-    },
-    {
-      "title": "Lorem 2",
-      "body": "Lorem Ipsum je demonstrativní výplňový text používaný v tiskařském a knihařském průmyslu. Lorem Ipsum je považováno za standard v této oblasti už od začátku 16. století, kdy dnes neznámý tiskař vzal kusy textu a na jejich základě vytvořil speciální vzorovou knihu. Jeho odkaz nevydržel pouze pět století, on přežil i nástup elektronické sazby v podstatě beze změny. Nejvíce popularizováno bylo Lorem Ipsum v šedesátých letech 20. století, kdy byly vydávány speciální vzorníky s jeho pasážemi a později pak díky počítačovým DTP programům jako Aldus PageMaker.",
-      "author": "yoshi",
+      "title": "Marathon Venture Capital adds to its newest fund to back Greek founders around the globe",
+      "body": "Marathon Venture Capital, an Athens, Greece-based venture firm cofounded in 2017 by two stalwarts of the Greek startup scene, has added €30 million in capital commitments to its second fund roughly a year after completing a first close with €40 million.\n\nBackers of the vehicle, which is more than twice the outfit’s €32 million debut effort, include the European Investment Fund, the Hellenic Development Bank of Investments (which really upped its investment, we’re told), and the European Bank for Reconstruction and Development.\n\nWe traded emails yesterday with one of the outfit’s cofounders, George Tziralis, who said that he, cofounder Panos Papadopolous, and the rest of the team have been writing seed-state checks of between €1 million to €1.5 million into a wide variety of startups in exchange for a targeted 15% to 20% ownership stake. He made it sound from the exchange like the startup ecosystem in Greece is more active than ever, but far from frothy as in many regions around the world. Part of that exchange follows.\n\nTC:  Are you exclusively backing Greek founders, no matter where they are in the world? Do they have to be natives of the country or do Greek Americans, for example, or Greek Australians interest you?\n\nGT: No, absolutely not [they don’t have to be born in Greece]. If you are an ambitious Greek founder, we want to talk no matter where you’re based.\n\nHow many women founders have you backed? Are you talking with many female founders of Greek ancestry? Like many other countries, Greece long had a very paternalistic culture, so I wonder what you’ve observed on this front.\n\nWe have invested in 14 companies so far, and only two had female founders. There is an increasing number of female founders starting up in our broader community, and some of them have been quite successful. Still, obviously, we have lots to do on this front and we started by tracking related figures. [Specifically], we recently released a compensation report for tech roles in startups based in Greece in which we also studied gender ratios. The results further highlighted the underlying gender gap, especially in leadership roles. On the flip side, product and QA/testing roles proved to be more balanced, and we hope they can serve as an example.",
+      "author": "Badus",
       "id": 5
+    },
+    {
+      "title": "11 ways to make personalized shopping more effective and profitable",
+      "body": "Since customer-centric digital strategies are now the norm for successful brands, the current focus should be on ways to use new tools and tech to differentiate your brand experience from the competition.\n\nThis is not so different from how brick-and-mortar shops operate: Customers walk in and are immersed in specific branding techniques, marketing strategies, and options for connection and personalized interaction.\n\nThis is a tried-and-true formula for in-person shopping, so why shouldn’t it be translated to digital storefronts as well? Let’s look at some of the ways that brands can leverage emerging tech to create a powerful, profitable personalization experience.\n\nThere are endless statistics about how important it is for consumers to feel like they are getting an individualized experience. Salesforce found that 70% of consumers are far more loyal to brands that understand their needs, and 84% say that they’re more likely to shop with brands that make them feel like a person rather than a number. Additionally, 91% say they’d prefer to shop with brands that offer relevant, personal recommendations.",
+      "author": "Badus",
+      "id": 6
     }
   ]
 }
